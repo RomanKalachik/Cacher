@@ -27,6 +27,7 @@ namespace Cacher {
             List<Tuple<Banknotes, int>> result = new List<Tuple<Banknotes, int>>();
             for (int i = 0; i < State.Count; i++) {
                 var note = State[i];
+                if (note.Item1 <= 0) continue;
                 int amountNeeded = amountLeft / (int)note.Item1;
                 if (amountNeeded >= note.Item2) {
                     var currentNote = note.Item2 * (int)note.Item1;

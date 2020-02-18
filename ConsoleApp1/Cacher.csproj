@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banknotes.cs" />
-    <Compile Include="BanknotesConparer.cs" />
+    <Compile Include="BanknotesComparer.cs" />
     <Compile Include="Cacher.cs" />
     <Compile Include="CacherTests.cs" />
     <Compile Include="EnumExtensionMethods.cs" />
