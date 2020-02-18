@@ -4,11 +4,17 @@ using System.Linq;
 
 namespace Cacher {
     public enum Banknotes : int {
+        [Description("1c")]
         OnePenny = 1,
+        [Description("2c")]
         TwoPence = 2,
+        [Description("5c")]
         FivePence = 5,
+        [Description("10c")]
         TenPence = 10,
+        [Description("20c")]
         TwentyPence = 20,
+        [Description("50c")]
         HalfPound = 50,
         [Description("£1")]
         Pound = 100,
