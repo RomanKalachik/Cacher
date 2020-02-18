@@ -54,7 +54,7 @@
   <ItemGroup>
     <Compile Include="Banknotes.cs" />
     <Compile Include="BanknotesComparer.cs" />
-    <Compile Include="Cacher.cs" />
+    <Compile Include="Cashier.cs" />
     <Compile Include="CacherTests.cs" />
     <Compile Include="EnumExtensionMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 namespace Cacher {
-    public class Cacher {
-        public Cacher(List<Tuple<Banknotes, int>> state) {
+    public class Cashier {
+        public Cashier(List<Tuple<Banknotes, int>> state) {
             State = state;
         }
         List<Tuple<Banknotes, int>> State { get; set; }

@@ -6,7 +6,7 @@ using System.Linq;
 namespace Cacher {
     [TestFixture]
     public class CacherTests {
-        Cacher cacher;
+        Cashier cacher;
 
         [SetUp]
         public void Setup() {
@@ -16,7 +16,7 @@ namespace Cacher {
 
         };
 
-            cacher = new Cacher(state);
+            cacher = new Cashier(state);
 
         }
         [Test]
